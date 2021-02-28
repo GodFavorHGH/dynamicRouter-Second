@@ -8,8 +8,11 @@ import 'element-ui/lib/theme-chalk/index.css';
 import '@/utils/global'//全局
 // 控制路由表的js文件
 import '@/permission.js'
+import axios from 'axios'
+axios.defaults.baseURL = 'http://127.0.0.1:9080';
+Vue.prototype.$axios = axios;
 Vue.config.productionTip = false
-Vue.use(ElementUI);
+Vue.use(ElementUI,axios);
 
 /* eslint-disable no-new */
 new Vue({

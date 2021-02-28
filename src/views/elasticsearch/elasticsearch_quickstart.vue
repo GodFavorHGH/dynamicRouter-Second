@@ -1,7 +1,5 @@
 <template>
-  <div>11111111111
-    <router-view/>
-  </div>
+  <div>我是二级菜单 elasticsearch/quickstart</div>
 </template>
 <script>
 export default {

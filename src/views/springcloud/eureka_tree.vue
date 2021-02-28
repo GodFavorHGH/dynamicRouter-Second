@@ -1,7 +1,5 @@
 <template>
-  <div>11111111111
-    <router-view/>
-  </div>
+  <div>我是二级菜单 eureka/tree页面</div>
 </template>
 <script>
 export default {

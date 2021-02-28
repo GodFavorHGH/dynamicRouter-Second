@@ -15,7 +15,7 @@
           <el-button @click="outSystem" size="mini" plain type="primary">退出</el-button>
         </el-header>
         <!-- 内容区域 -->
-        <el-main>
+        <el-main style="height: 1000px;">
           <!-- 二级路由跳转 -->
           <router-view />
         </el-main>
@@ -26,7 +26,6 @@
 <script>
 // 左侧菜单组件
 import sideMeuns from '@/components/sideMeuns'
-import { permissionRouter } from '@/router'
 export default {
   computed: {
     getRoutes() {
